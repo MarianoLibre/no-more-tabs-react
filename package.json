@@ -1,0 +1,17 @@
+{
+  "name": "no-more-tabs-react",
+  "version": "0.1.0",
+  "description": "I'm done with tabs and bookmarks in the browser.",
+  "main": "scr/index.html",
+  "repository": "git@github.com:MarianoLibre/no-more-tabs-react.git",
+  "author": "MarianoLibre <mariano.macri@mercadolibre.com>",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
