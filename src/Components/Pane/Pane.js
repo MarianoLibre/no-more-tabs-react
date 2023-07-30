@@ -1,3 +1,12 @@
-export function Pane() {
-	return <div className="pane">ima pane</div>
+import { Label } from "../Label/Label"
+
+export function Pane({ label, children }) {
+	return (
+		<div className="pane">
+			<Label text={label} />
+			<div className="scroller">
+				{children}
+			</div>
+		</div>
+	)
 }

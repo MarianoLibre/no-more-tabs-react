@@ -1,3 +1,7 @@
-export function Group() {
-	return <div className="group">ima group</div>
+export function Group({ text, colour }) {
+	return (
+		<div className={ `group ${colour}` }>
+			{text}
+		</div>
+	)
 }
