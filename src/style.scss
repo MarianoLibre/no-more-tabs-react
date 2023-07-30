@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+$background: hsl(250, 8%, 25%);
+$text: hsl(250, 8%, 60%);
+
+#app {
+	background: $background;
+	color: $text;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-bar {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid $text;
+	padding: 1rem;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pane {
+	padding: 0.5rem;
+	border-right: 1px solid $text;
+	&:last-of-type {
+		border: none;
+	}
+}
+

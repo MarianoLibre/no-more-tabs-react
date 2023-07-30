@@ -1,3 +1,15 @@
+import { TopBar } from "./Components/TopBar/TopBar"
+import { Pane } from "./Components/Pane/Pane"
+
 export function App() {
-  return <h1>No More Fucking Tabs!</h1>
+  return (
+    <>
+    <TopBar />
+    <div id="main">
+      <Pane />
+      <Pane />
+      <Pane />
+    </div>
+    </>
+  )
 }
