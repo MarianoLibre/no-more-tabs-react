@@ -7,7 +7,7 @@ export function App() {
     <>
       <TopBar />
       <div id="main">
-        <Pane label="New Group (Ctrl+G)" >
+        <Pane label="New Group [^G]" >
           <Group text="Udemy" colour="purple" />
           <Group text="Go" colour="blue" />
           <Group text="Vim" colour="green" />
@@ -15,8 +15,8 @@ export function App() {
           <Group text="GitHub" colour="orange" />
           <Group text="Libre" colour="red" />
         </Pane>
-        <Pane label="New Link (Ctrl+L)" />
-        <Pane label="Dictionary" />
+        <Pane label="New Link [^L]" />
+        <Pane label="Dictionary [^K]" />
       </div>
     </>
   )
